@@ -28,6 +28,8 @@ import kotlin.random.Random
 // Scope functions
 // The Kotlin standard library contains several functions whose sole purpose is to execute a block of code within the context of an object. When you call such a function on an object with a lambda expression provided, it forms a temporary scope. In this scope, you can access the object without its name. Such functions are called scope functions. There are five of them: let, run, with, apply, and also.
 
+// https://blog.rockthejvm.com/kotlin-context-receivers/#:~:text=In%20Kotlin%2C%20context%20receivers%20provide,code%20and%20enhance%20its%20maintainability.
+
 fun main() {
     // val is runtime constant whereas const val is compile-time constant; also val and var can be assigned a function but not const val
 
