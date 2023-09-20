@@ -15,6 +15,16 @@ import kotlin.random.Random
 //
 // lazy in Kotlin is useful in a scenario when we want to create an object inside a class, but that object creation is expensive and that might lead to a delay in the creation of the object that is dependent on that expensive object. So, we need to understand that the object will get initialized only when it is accessed for the first time, else it will not get initialized.
 
+// data class
+// The data class in Kotlin is used to hold the data. This data class contains some utility functions that are often derivable from the data. 
+//
+// With the help of the data class, you don’t need to write the boiler plate code. The compiler automatically generates all the getter and setter for all the data class properties.
+// The data class includes some inbuilt functions, and due to these functions, you don’t need to write the boiler plate code. Following are those functions:
+// toString()
+// copy()
+// equals()
+// hashCode()
+
 fun main() {
     // val is runtime constant whereas const val is compile-time constant; also val and var can be assigned a function but not const val
 
